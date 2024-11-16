@@ -1,0 +1,50 @@
+/* Reset all margin and padding to 0 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set default font properties */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000;
+}
+
+/* Reset text-related properties */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+ul, ol {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* Set default behavior for anchors */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Set default behavior for form elements */
+input, textarea, select, button {
+  font: inherit;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+/* Remove outline for focused elements */
+*:focus {
+  outline: none;
+}
+
+/* Reset table properties */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
