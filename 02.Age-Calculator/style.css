@@ -1,0 +1,37 @@
+.container {
+  height: 300px;
+  width: 300px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 30%;
+  top: 20%;
+  background-color: lightblue;
+}
+h1{
+  text-align: center;
+  font-size: 36px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+p{
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+button {
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: blue;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+#btn:hover{
+  background-color: aqua;
+}
