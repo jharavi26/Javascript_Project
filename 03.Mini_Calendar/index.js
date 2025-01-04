@@ -1,17 +1,18 @@
-const monthName = document.querySelector(".month") 
-const dayName = document.querySelector(".day")
-const dateName = document.querySelector(".date")
-const yearName = document.querySelector(".year")
-console.log(dateName);
-
 const date = new Date();
-const month = date.getMonth();
+
+// Get elements from the DOM
+const monthName = document.querySelector(".month");
+const dayName = document.querySelector(".day");
+const dateName = document.querySelector(".date");
+const yearName = document.querySelector(".year");
+
+// Set the text content of each element
 monthName.innerText = date.toLocaleString("en", {
-  month:"long",
+  month: "long",
 });
 
 dayName.innerText = date.toLocaleString("en", {
-  weekday:"long",
+  weekday: "long",
 });
 
 dateName.innerText = date.getDate();
