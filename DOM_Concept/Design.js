@@ -18,3 +18,24 @@ console.log(result1)
 
 let result2 = document.querySelectorAll(".car")
 console.log(result2)
+
+
+
+//Accessing Attribute in Dom 
+
+let ele = document.getElementById("img")        // Checking if an Attribute Exists
+console.log(ele)
+let srcAtt = ele.getAttribute("src")            //To access the value of an attribute,
+console.log(srcAtt);
+
+ele.setAttribute("class","main")
+let srcAt = ele.getAttribute("class")          //To set or update an attribute,
+console.log(srcAt)
+
+let has = ele.hasAttribute("alt")            // Checking if an Attribute Exists , True 
+console.log(has)
+
+let rta = ele.removeAttribute("alt")           //To remove an attribute,
+let has1 = ele.hasAttribute("alt")            // False
+console.log(has1)
+
