@@ -39,3 +39,16 @@ let rta = ele.removeAttribute("alt")           //To remove an attribute,
 let has1 = ele.hasAttribute("alt")            // False
 console.log(has1)
 
+//Create a Element 
+
+let btn = document.getElementById("art");
+console.log(btn);
+
+function fun(){
+  let para = document.createElement("p")
+  console.log(para);
+  para.textContent = "This is a new Paragraph"
+  element.appendChild(para)
+}
+
+

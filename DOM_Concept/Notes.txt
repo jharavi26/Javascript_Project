@@ -1,1 +1,70 @@
-Accessing Attribue in Dom 
+Node :-Refers to any type of node in the DOM (element, text, comment, etc.). elements, text, comments, and other types.
+
+Element :-  Specifically refers to HTML elements (e.g., <div>, <p>). <div>, <p>, <span>, etc.
+
+
+Accessing Element in Dom :-
+
+1.document.getElementById() :-Returns the first matching element or null if not found.
+2.document.getElementsByClassName() :-Returns an HTMLCollection (live collection).
+3.document.getElementsByTagName() :-Returns an HTMLCollection (live collection).
+4.document.querySelector() :-Selects the first matching element using a CSS selector. Static
+5.document.querySelectorAll() :-Returns a static NodeList. Static
+
+Traversing The Dom :-
+
+Navigating between nodes:
+Parent: 
+
+parentNode :-Retrieves the parent node of an element,
+parentElement :-Similar to parentNode but returns only element nodes
+
+Children: 
+
+childNodes :-Returns a NodeList of all child nodes, including elements, text nodes, and comments.
+children :- Returns an HTMLCollection of element children only 
+firstChild :-Returns the last child node
+lastChild :-Returns the last child node
+firstElementChild :-Returns the first child element
+lastElementChild :-Returns the last child element
+
+Siblings: 
+
+nextSibling :-Returns the next sibling, including text and comment nodes.
+previousSibling :- Returns the previous sibling, including text and comment nodes.
+nextElementSibling :-Returns the next sibling element.
+previousElementSibling :-Returns the previous sibling element.
+
+Getting & Setting Attribute:-
+
+getAttribute()
+setAttribute()
+removeAttribute()
+hasAttribute()
+
+Creating and Modifying Nodes :-
+
+Creating a Element :-
+
+document.createElement() :-Creating a Element  
+document.createTextNode() :-Creating a new Node
+
+Adding nodes:-
+
+appendChild()
+insertBefore()
+insertAdjacentHTML()
+
+Removing and Replacing nodes :-
+
+removeChild()
+replaceChild()
+
+cloneNode()  :-Cloning elements
+
+Events in the DOM :-
+
+addEventListener() and removeEventListener()   :-Event handling
+Event properties: target, currentTarget, preventDefault(), stopPropagation()
+
+Event delegation and bubbling vs capturing.
