@@ -62,7 +62,9 @@ replaceChild()
 
 cloneNode()  :-Cloning elements
 
-Events in the DOM :-
+Events in the DOM :- element.addEventListener(e.name, function(){}, bubbling,capturing)
+
+event object :-Whenever object is created event object is created & passed handler function. 
 
 addEventListener() and removeEventListener()   :-Event handling
 Event properties: target, currentTarget, preventDefault(), stopPropagation()
