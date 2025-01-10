@@ -48,7 +48,21 @@ function fun(){
   let para = document.createElement("p")
   console.log(para);
   para.textContent = "This is a new Paragraph"
-  element.appendChild(para)
+  btn.appendChild(para)
 }
 
+const ram = document.getElementById("parent");
+const rav = document.getElementById("child");
+const raj = document.getElementById("offspring")
 
+ram.addEventListener('click',()=>{
+  console.log("Parents is Clicked")
+})
+
+rav.addEventListener('click',()=>{
+  console.log("child is Clicked")
+})
+
+raj.addEventListener('click',()=>{
+  console.log("offspring is Clicked")
+})

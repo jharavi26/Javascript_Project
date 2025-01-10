@@ -12,3 +12,24 @@
 img{
   width: 20%;
 }
+
+#parent{
+  width: 300px;
+  height: 300px;
+  background-color: red;
+  position: absolute;
+  left: 250px;
+}
+
+#child{
+  width: 200px;
+  height: 200px;
+  background-color: rgb(27, 238, 8);
+}
+
+#offspring{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(9, 42, 228);
+ 
+}

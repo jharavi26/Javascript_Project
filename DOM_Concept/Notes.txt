@@ -69,4 +69,7 @@ event object :-Whenever object is created event object is created & passed handl
 addEventListener() and removeEventListener()   :-Event handling
 Event properties: target, currentTarget, preventDefault(), stopPropagation()
 
-Event delegation and bubbling vs capturing.
+Event delegation :- attaching event listeners to multiple child elements, you attach a single event listener to a parent element and let the event bubble up to that parent.
+
+Event bubbling :- When an event occurs on a target element, it first runs handlers on that element and then bubbles up to its ancestors.
+Event capturing :-
