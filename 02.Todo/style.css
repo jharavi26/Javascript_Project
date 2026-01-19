@@ -1,0 +1,27 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  text-align: center;
+}
+
+.todo{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.todo button{
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 5px;
+  background-color: green;
+  color: white;
+}
+
+.todo input{
+  font-size: 20px;
+  text-align: center;
+}
